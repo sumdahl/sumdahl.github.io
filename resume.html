@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumiran Dahal Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!--Internal CSS-->
+  <style>
+    /* apply styles to container class and providing gap in cloumn*/
+    .container {
+      display: flex;
+      padding: 40px 0;
+      column-gap: 30px;
+    }
+
+    /* apply styles to resume left class*/
+    .resume-left {
+      flex: 9;
+    }
+
+    /* apply styles to resume right class*/
+    .resume-right {
+      flex: 5;
+      padding: 0 20px;
+    }
+
+    /* apply styles to h5 tag whose class is title inside resume right*/
+    .resume-right h5.title {
+      margin-top: 24px;
+    }
+
+    /* apply styles to h3 tag of class title*/
+    h3.title {
+      color: var(--primary-dark-color);
+      margin-bottom: 20px;
+    }
+
+    /* apply styles to h5 tag of class title*/
+    h5.title {
+      color: var(--primary-dark-color);
+      margin-bottom: 24px;
+      padding: 0;
+    }
+
+    /* apply styles to class resume right> class avatar and displaying element as block element*/
+    .resume-right .avatar {
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      border-radius: 50%;
+    }
+
+    /* apply styles to class resume right> contact info*/
+    .resume-right .contact-info {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    /* apply styles a tag of html*/
+    a {
+      text-decoration: none;
+      color: var(--primary-dark-color);
+      font-weight: 400;
+    }
+
+    /* apply styles to resume right> contact infor except last child*/
+    .resume-right .contact-info:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    /* apply styles to class resume right> class contact info of i tag*/
+    .resume-right .contact-info i {
+      margin-right: 8px;
+      color: var(--primary-dark-color);
+    }
+
+    /* apply styles to class resume right> class brief*/
+    .resume-right .brief {
+      margin-left: 22px;
+    }
+
+    /* interest class is displayed by flex property, providing row gap and column gap and wrap property is used to wrap items in multiple lines */
+    .interest {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 32px;
+      row-gap: 16px;
+    }
+
+    /* apply styles to class interest> class interest wrapper except last child*/
+    .interest .interest-wrapper:not(:last-child) {
+      margin-bottom: 12px;
+    }
+
+    /* apply styles to class info wrapper except last child*/
+    .info-wrapper:not(:last-child) {
+      margin-bottom: 24px;
+    }
+
+    /* apply styles to class info wrapper of p tag inside div tag*/
+    .info-wrapper div p {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 8px;
+    }
+
+    /* apply styles to span tag of p tag inside div tag of class info wrapper*/
+    .info-wrapper div p span {
+      color: var(--primary-dark-color);
+      font-weight: 400;
+      padding-right: 10px;
+    }
+
+    /* apply styles to span tag inside div tag of class info wrapper*/
+    .info-wrapper div span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* apply style to ul tag of info wrapper class*/
+    .info-wrapper ul {
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+
+    /* apply styles to li tag inside ul of info wrapper class*/
+    .info-wrapper ul li {
+      list-style: inside disc;
+    }
+
+    /* apply styles to class contact section and felx and wrap property is provided*/
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 32px;
+      row-gap: 16px;
+    }
+
+    /* apply styles to contact link class and aligining items to center*/
+    .contact-link {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--primary-dark-color);
+      align-items: center;
+    }
+
+    /* apply styles to contact link class*/
+    .contact-link i {
+      font-size: 1rem;
+      margin-right: 8px;
+    }
+
+    /* apply styles class progress wrapper> progress class*/
+    .progress-wrapper .progress {
+      height: 10px;
+    }
+
+    /* apply styles to progress wrapper > title class*/
+    .progress-wrapper .title {
+      margin-top: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="resume-left">
+      <h4 class="title">Sumiran Dahal</h4>
+      <h3 class="title">Student</h3>
+      <!--About me section-->
+      <h5 class="title">About Me</h5>
+      <p class="para">
+        I am Sumiran Dahal. I am tech geek, enthusiast, and leaner. I am
+        passionate in Information Technology. I like to design, code and
+        create content. I believe in power of tech communities.
+      </p>
+      <br />
+      <!--Education section-->
+      <h5 class="title">Education</h5>
+      <div class="info-wrapper">
+        <h6 class="title">Bachelor in Information Technology</h6>
+        <div>
+          <p>
+            <span>Itahari International College</span>Sundar Haraicha-4,
+            Morang, Nepal
+          </p>
+          <span>Since February 2021</span>
+        </div>
+      </div>
+      <div class="info-wrapper">
+        <h6 class="title">Higher Secondary School - NEB</h6>
+        <div>
+          <p>
+            <span>Nidi College and Indreni Campus</span>Birtamod-2, Jhapa,
+            Nepal
+          </p>
+          <span>July 2017 - December 2020</span>
+        </div>
+        <ul>
+          <li>Graduated with 3.185 GPA</li>
+        </ul>
+      </div>
+      <div class="info-wrapper">
+        <h6 class="title">Secondary School - SEE</h6>
+        <div>
+          <p>
+            <span>Mahananda Shiksha Sadan</span>Buddhashanti-3, Jhapa, Nepal
+          </p>
+          <span>Graduated in May 2017</span>
+        </div>
+        <ul>
+          <li>Graduated with 2.85 GPA</li>
+        </ul>
+      </div>
+      <br />
+      <!--Contact section-->
+      <h5 class="title">Contact</h5>
+      <div class="contact-section">
+        <a href="https://www.facebook.com/sumiran.dahal.77" class="contact-link"><i
+            class="fab fa-facebook-square"></i>sumiran.dahal.77</a>
+        <a href="https://twitter.com/sumiran_dahal" class="contact-link"><i class="fab fa-twitter"></i>sumiran_dahal</a>
+        <a href="https://www.github.com/sumdahl" class="contact-link"><i class="fab fa-github"></i>sumdahl</a>
+        <a href="https://instagram.com/sumiran_dahal" class="contact-link"><i
+            class="fab fa-instagram"></i>sumiran_dahal</a>
+        <a href="https://www.linkedin.com/in/sumiran-dahal-609298210/" class="contact-link"><i
+            class="fab fa-linkedin"></i>sumiran-dahal-609298210</a>
+      </div>
+    </div>
+    <!--Flex property divides section so this is for the right section of webpage-->
+    <div class="resume-right">
+      <div class="brief">
+        <img class="avatar" src="images/sumiran-avatar.png" alt="Sumiran Dahal" />
+        <div class="contact-info">
+          <i class="fas fa-envelope"></i>sumirandahal46@gmail.com
+        </div>
+        <div class="contact-info">
+          <i class="fas fa-map-marker-alt"></i>Buddhashanti-1, Jhapa
+        </div>
+        <div class="contact-info">
+          <i class="fas fa-calendar"></i>19 Years old
+        </div>
+        <div class="contact-info">
+          <i class="fab fa-linkedin"></i><a
+            href="https://www.linkedin.com/in/sumiran-dahal-609298210/">sumiran-dahal-609298210</a>
+        </div>
+      </div>
+      <!--Language section-->
+      <h5 class="title">Languages</h5>
+      <ul>
+        <li class="progress-wrapper">
+          <h6 class="title">Nepali</h6>
+          <div class="progress">
+            <div class="progress-bg"></div>
+            <div class="progress-val" style="width: 100%"></div>
+          </div>
+        </li>
+        <li class="progress-wrapper">
+          <h6 class="title">English</h6>
+          <div class="progress">
+            <div class="progress-bg"></div>
+            <div class="progress-val" style="width: 75%"></div>
+          </div>
+        </li>
+        <li class="progress-wrapper">
+          <h6 class="title">Hindi</h6>
+          <div class="progress">
+            <div class="progress-val" style="width: 60%"></div>
+          </div>
+        </li>
+      </ul>
+      <!--Interests section-->
+      <h5 class="title">Interests</h5>
+      <ul class="interest">
+        <li class="interest-wrapper">
+          <h6 class="title">Coding</h6>
+        </li>
+
+        <li class="interest-wrapper">
+          <h6 class="title">Reading</h6>
+        </li>
+        <li class="interest-wrapper">
+          <h6 class="title">Cooking</h6>
+        </li>
+        <li class="interest-wrapper">
+          <h6 class="title">Games</h6>
+        </li>
+        <li class="interest-wrapper">
+          <h6 class="title">Movies</h6>
+        </li>
+        <li class="interest-wrapper">
+          <h6 class="title">Listening to Music</h6>
+        </li>
+
+        <li class="interest-wrapper">
+          <h6 class="title">Photography</h6>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
